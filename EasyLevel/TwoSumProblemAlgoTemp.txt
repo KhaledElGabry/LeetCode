@@ -1,0 +1,29 @@
+AddtionalInfo:
+    Difficulty:Easy
+    Site:LeetCode
+    Links:https://leetcode.com/problems/two-sum/description/
+------------------------------------------------------------------------------------------------------------------------
+Name:TwoSum
+
+Assumptions:
+    -You cannot use the same element twice
+    -The array length is between 2 and 10,000
+    -The numbers in the array and the target can be positive, negative, or zero
+
+
+Inputs:
+    -An Array of integers
+    -A target sum  
+
+
+Processes:
+    -Validations:none
+    -TwoSum
+        -take an Array and the target
+        -itrate on each element in the array
+        -if the sum of two elements equals to the target, return the two indices of these elements
+        -if there is no indices of two numbers add up to the target return null
+
+
+Outputs:
+    The indices of two numbers from the array that add up to the target
