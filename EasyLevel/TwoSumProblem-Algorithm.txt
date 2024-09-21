@@ -1,4 +1,4 @@
-AddtionalInfo:
+AdditionalInfo:
     Difficulty:Easy
     Site:LeetCode
     Links:https://leetcode.com/problems/two-sum/description/
