@@ -1,0 +1,31 @@
+AdditionalInfo:
+    Difficulty:Easy
+    Site:LeetCode
+    Links:https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/description/
+------------------------------------------------------------------------------------------------------------------------
+Name:Check if two string Arrays are equivalent
+
+Assumptions:
+    - Make sure the elements in the two Arrays consist of lowercase letters.
+
+Inputs:
+    - array1[String]
+    - array2[String]
+
+
+Processes:
+    -Validations
+        -
+
+
+    -Code
+        - make the array1 combined into a single string.
+        - make the array2 combined into a single string.
+        - if contents of lower cased string in array1 equals to contents of lower cased string in array2
+            - print true
+        - if doesn't print false
+
+
+Outputs:
+    - true or false
+
