@@ -21,7 +21,7 @@ public class FizzBuzz {
     }
     
 
-    // my LeetCode Submited Solution using List 
+    // my LeetCode Submitted Solution using List
     public static List<String> fizzBuzz(int n) {
 
         List<String> answer = new ArrayList<String>(n);    
