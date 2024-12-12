@@ -40,8 +40,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n²)$
-- *Space Complexity:* $O(\ n²)$
+- *Time Complexity:* $O(n²)$
+- *Space Complexity:* $O(n²)$
 
 
 ---
@@ -85,8 +85,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n)$
-- *Space Complexity:* $O(\ n)$
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(n)$
 
 
 ---
