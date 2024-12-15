@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)
 
 ### Approach I: Using Replace Method

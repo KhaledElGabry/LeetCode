@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 
 ### Approach I: Array Copy Method
@@ -33,8 +30,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n)$
-- *Space Complexity:* $O(\ n)$
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(n)$
 
 
 ---

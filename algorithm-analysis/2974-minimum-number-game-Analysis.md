@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [2974. Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)
 
 ### Approach I: Using Insertion Sort 

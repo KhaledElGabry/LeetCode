@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [2824. Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)
 
 ### Approach I: Brute Force
@@ -38,8 +35,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n²)$
-- *Space Complexity:* $O(\ 1)$
+- *Time Complexity:* $O(n²)$
+- *Space Complexity:* $O(1)$
 
 
 ---

@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [136. Single Number](https://leetcode.com/problems/single-number/)
 
 ### Approach I: Using XOR

@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
 ### Approach I:  Reverse Array in Place

@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)
 
 ### Approach I: Using Regex

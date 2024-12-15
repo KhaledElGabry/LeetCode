@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [2798. Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)
 
 ### Approach I: 
@@ -36,8 +33,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n)$
-- *Space Complexity:* $O(\ 1)$
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(1)$
 
 
 ---

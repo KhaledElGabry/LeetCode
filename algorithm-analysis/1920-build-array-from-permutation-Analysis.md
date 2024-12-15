@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
 ### Approach I: 

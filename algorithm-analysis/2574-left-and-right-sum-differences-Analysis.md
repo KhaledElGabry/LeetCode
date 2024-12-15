@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [2574. Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)
 
 ### Approach I: 
@@ -51,8 +48,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n)$
-- *Space Complexity:* $O(\ n)$
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(n)$
 
 
 ---

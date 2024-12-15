@@ -1,7 +1,4 @@
-﻿<br>
-<h1 align="center">Algorithm Analysis</h1>
-
-## [1. Two Sum](https://leetcode.com/problems/two-sum/)
+﻿## [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 ### Approach I: Nested Loop
 

@@ -1,6 +1,3 @@
-<br>
-<h1 align="center">Algorithm Analysis</h1>
-
 ## [3190. Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)
 
 ### Approach I:
@@ -36,8 +33,8 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(\ n)$
-- *Space Complexity:* $O(\ 1)$
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(1)$
 
 
 ---
