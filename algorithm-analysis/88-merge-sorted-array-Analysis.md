@@ -39,7 +39,7 @@ class Solution {
 
 ### Complexity Analysis:
 
-- *Time Complexity:* $O(n + m)$
+- *Time Complexity:* $O(n + m)$ where m represents the number of valid elements in the first array and n represents the second array
 - *Space Complexity:* $O(1)$
 
 
