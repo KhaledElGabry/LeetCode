@@ -12,14 +12,14 @@ class Solution {
             throw new IllegalArgumentException("invalid");
         }
 
-        int[] decoded = new int[encoded.length + 1];
-        decoded[0] = first;
+        int[] decode = new int[encoded.length + 1];
+        decode[0] = first;
 
         for (int i = 0; i < encoded.length; i++) {
-            decoded[i + 1] += encoded[i] ^ decoded[i];
+            decode[i + 1] = encoded[i] ^ decode[i];
         }
 
-        return decoded;
+        return decode;
     }
 }
 ```
