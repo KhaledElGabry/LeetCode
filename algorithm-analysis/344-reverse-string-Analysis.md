@@ -1,19 +1,28 @@
 ## [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
-### Approach I:  Reverse Array in Place
+### Approach I:  Two-Pointer Technique
 
 #### Java:
 ```java
 class Solution {
     public void reverseString(char[] s) {
+
+        //validations
         if (s.length == 0) {
-            System.out.println("Invalid Input");
+            System.out.print("Invalid Input");
             return;
         }
-        for (int i = 0; i < s.length / 2; i++) {
-            char j = s[i];
-            s[i] = s[s.length - i - 1];
-            s[s.length - i - 1] = j;
+
+        int left = 0;
+        int right = s.length - 1;
+
+        while(left < right){
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+
+            left++;
+            right--;
         }
     }
 }
@@ -37,5 +46,4 @@ class Solution {
 
 
 ---
-
 
