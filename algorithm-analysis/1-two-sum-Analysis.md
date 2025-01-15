@@ -1,6 +1,6 @@
 ﻿## [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
-### Approach I: Nested Loop
+### Approach I: Brute Force
 
 #### Java:
 ```java

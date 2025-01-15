@@ -1,6 +1,6 @@
 ## [2562. Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)
 
-### Approach I: Two-Pointers
+### Approach I: Two Pointers
 
 #### Java:
 ```java
