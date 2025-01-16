@@ -1,7 +1,13 @@
 class Solution {
 
      // brute Force
-     public static int[] twoSum(int[] nums, int target) {
+     public int[] twoSum(int[] nums, int target) {
+
+          // Validation
+          if (nums.length < 2 || nums.length > 10_000) {
+               throw new IllegalArgumentException("Invalid input");
+          }
+
           for (int i = 0; i < nums.length; i++) {
                for (int j = i + 1; j < nums.length; j++) {
                     if (nums[i] + nums[j] == target)
@@ -13,7 +19,7 @@ class Solution {
 
 
      // two-pointers using array
-     public static int[] twoSum(int[] nums, int target) {
+     public int[] twoSum(int[] nums, int target) {
 
 
           // Validation
@@ -49,7 +55,7 @@ class Solution {
      }
 
 
-     // two-pointers using HashTable
+     // HashTable
      public int[] twoSum(int[] nums, int target) {
 
           //validation

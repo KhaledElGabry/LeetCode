@@ -37,7 +37,7 @@ class Solution {
 ---
 
 
-### Approach II: Two Pointers with HashTable
+### Approach II: HashTable
 
 #### Java:
 ```java
@@ -143,7 +143,7 @@ class Solution {
 - *Time Complexity:* $O(n\ log\ n)$ 
 - *Space Complexity:* $O(n)$
 
-If the Array needs to be sorted first, Sorting the array takes $O(n\ log\ n)$ time. after sorting, the two pointers traversal takes $O(n)$ time.
+If the Array needs to be sorted first, Sorting the array takes $O(n\ log\ n)$ time (merge sort). after sorting, the two pointers traversal takes $O(n)$ time.
 If the array is already sorted, we skip the sorting step. so the two pointers traversal takes $O(n)$ time.
 
 ---
