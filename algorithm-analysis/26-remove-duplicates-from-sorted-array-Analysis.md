@@ -12,11 +12,11 @@ class Solution{
             throw new IllegalArgumentException("Invalid input");
         }
 
-        int nextNonDuplicate = 1;
+        int nextNonDuplicate = 1; // keeps track the position of next unique item
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {
             if(nums[i] < -100 || nums[i] > 100){
-                throw new IllegalArgumentException("Invalid item value -> "+ nums[i]);
+                throw new IllegalArgumentException("Invalid item value: "+ nums[i]);
             }
 
             if(nums[nextNonDuplicate - 1] != nums[i]){
