@@ -6,19 +6,19 @@ class Solution{
             throw new IllegalArgumentException("Invalid input");
         }
 
-        int nextNonDuplicate = 1; // keeps track the position of next unique item
+        int writeIndex = 1; // position to write the next unique item
 
         for (int i = 1; i < nums.length; i++) {
             if(nums[i] < -100 || nums[i] > 100){
                 throw new IllegalArgumentException("Invalid item value: "+ nums[i]);
             }
 
-            if(nums[nextNonDuplicate - 1] != nums[i]){
-                nums[nextNonDuplicate] = nums[i];
-                nextNonDuplicate++;
+            if(nums[writeIndex - 1] != nums[i]){
+                nums[writeIndex] = nums[i];
+                writeIndex++;
             }
         }
 
-        return nextNonDuplicate;
+        return writeIndex;
     }
 }
