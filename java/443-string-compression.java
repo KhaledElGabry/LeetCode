@@ -6,14 +6,15 @@ class Solution {
             throw new IllegalArgumentException("Invalid input");
         }
 
-        int write = 0;
-        int read = 0;
+        int write = 0; // tracks the position to write compressed data
+        int read = 0;  // scans through the input array
         int n = chars.length;
 
         while (read < n) {
             char currentChar = chars[read];
             int charCounter = 0;
 
+            // count consecutive occurrences of currentChar
             while (read < n && chars[read] == currentChar) {
                 read++;
                 charCounter++;
