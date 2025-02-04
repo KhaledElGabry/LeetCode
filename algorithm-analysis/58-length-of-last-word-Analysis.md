@@ -1,6 +1,10 @@
-class Solution{
+## [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
 
-    // first solution
+### Approach I: Backward Iteration
+
+#### Java:
+```java
+class Solution {
     public int lengthOfLastWord1(String s) {
 
         // validation
@@ -19,11 +23,35 @@ class Solution{
                 break;
             }
         }
-
         return length;
     }
+}
+```
 
-    // second solution more straightforward logic and readable
+[//]: # (#### Go:)
+
+[//]: # (```go)
+
+[//]: # (func solution&#40;&#41; {)
+
+[//]: # ()
+[//]: # (})
+
+[//]: # (```)
+
+### Complexity Analysis:
+
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(1)$
+
+
+---
+
+### Approach II: Backward Iteration (Recommended)
+
+#### Java:
+```java
+class Solution {
     public int lengthOfLastWord(String s) {
 
         // validation
@@ -44,3 +72,23 @@ class Solution{
         return length;
     }
 }
+```
+
+[//]: # (#### Go:)
+
+[//]: # (```go)
+
+[//]: # (func solution&#40;&#41; {)
+
+[//]: # ()
+[//]: # (})
+
+[//]: # (```)
+
+### Complexity Analysis:
+
+- *Time Complexity:* $O(n)$
+- *Space Complexity:* $O(1)$
+
+
+---
