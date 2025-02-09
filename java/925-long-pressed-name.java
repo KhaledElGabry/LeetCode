@@ -2,8 +2,8 @@ class Solution {
     public boolean isLongPressedName(String name, String typed) {
 
         // validation
-        if (name.length() < 1 || typed.length() < 1 || name.length() > 1000 || typed.length() > 1000) {
-            throw new IllegalArgumentException("Invalid");
+        if (name.isEmpty() || typed.isEmpty() || name.length() > 1000 || typed.length() > 1000) {
+            throw new IllegalArgumentException("Invalid Input");
         }
 
         int left = 0, right = 0;
