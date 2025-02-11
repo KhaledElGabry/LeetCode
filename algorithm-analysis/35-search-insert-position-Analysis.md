@@ -43,10 +43,10 @@ func searchInsert(nums []int, target int) int {
 
     // validation
     if nums == nil || len(nums) < 1 || len(nums) > 10_000 {
-    panic("Invalid array input")
+        panic("Invalid array input")
     }
     if target < -10_000 || target > 10_000 {
-    panic("Invalid target value")
+        panic("Invalid target value")
     }
 
     var low int = 0
