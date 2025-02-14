@@ -2,11 +2,8 @@ class Solution {
     public int searchInsert(int[] nums, int target) {
 
         // validation
-        if(nums == null || nums.length < 1|| nums.length > 10_000){
+        if(nums == null){
             throw new IllegalArgumentException("Invalid array input");
-        }
-        if(target < -10_000 || target > 10_000){
-            throw new IllegalArgumentException("Invalid target value");
         }
 
         int low = 0;

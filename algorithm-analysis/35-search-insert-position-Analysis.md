@@ -8,11 +8,8 @@ class Solution {
     public int searchInsert(int[] nums, int target) {
 
         // validation
-        if(nums == null || nums.length < 1|| nums.length > 10_000){
+        if(nums == null){
             throw new IllegalArgumentException("Invalid array input");
-        }
-        if(target < -10_000 || target > 10_000){
-            throw new IllegalArgumentException("Invalid target value");
         }
 
         int low = 0;
@@ -42,11 +39,8 @@ class Solution {
 func searchInsert(nums []int, target int) int {
 
     // validation
-    if nums == nil || len(nums) < 1 || len(nums) > 10_000 {
+    if nums == nil {
         panic("Invalid array input")
-    }
-    if target < -10_000 || target > 10_000 {
-        panic("Invalid target value")
     }
 
     var low int = 0
