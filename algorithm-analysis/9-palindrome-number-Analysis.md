@@ -29,16 +29,24 @@ class Solution {
 }
 ```
 
-[//]: # (#### Go:)
+#### Go:
+```go
+func isPalindrome(x int) bool {
 
-[//]: # (```go)
+	number := strconv.Itoa(x) // convert int to string
+	left := 0
+	right := len(number) - 1
 
-[//]: # (func solution&#40;&#41; {)
-
-[//]: # ()
-[//]: # (})
-
-[//]: # (```)
+	for left < right {
+		if number[left] != number[right] {
+			return false
+		}
+		left++
+		right--
+	}
+	return true
+}
+```
 
 ### Complexity Analysis:
 
