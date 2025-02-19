@@ -30,7 +30,9 @@ class Solution {
 ### Complexity Analysis:
 
 - *Time Complexity:* $O(log\ n)$ 
-- *Space Complexity:* $O(h)$ where $h$ is height of tree, Best case $O(log\ n)$ (*balanced tree*), Worst case $O(n)$ (*skewed tree*)
+- *Space Complexity:* $O(h)$ where $h$ is height of tree
+  - Best case $O(log\ n)$ it tree is *balanced tree*
+  - Worst case $O(n)$ it tree is *skewed tree*
 
 
 ---
