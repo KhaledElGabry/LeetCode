@@ -1,10 +1,5 @@
 func searchInsert(nums []int, target int) int {
 
-	// validation
-	if nums == nil {
-		panic("Invalid array input")
-	}
-
 	var low int = 0
 	var high int = len(nums) - 1
 
