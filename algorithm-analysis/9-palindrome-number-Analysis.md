@@ -1,4 +1,4 @@
-## [9. Palindrome Number.](https://leetcode.com/problems/palindrome-number/)
+## [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ### Approach I: Two Pointers
 #### Java:
@@ -6,12 +6,7 @@
 class Solution {
     public boolean isPalindrome(int x) {
 
-        // validation
-        if (x > Integer.MAX_VALUE - 1) {
-            throw new IllegalArgumentException("Invalid Number");
-        }
-
-        String numberAsString = String.valueOf(x);
+        String numberAsString = String.valueOf(x); // convert int to string
         int start = 0;
         int end = numberAsString.length() - 1;
 
@@ -23,7 +18,6 @@ class Solution {
                 return false;
             }
         }
-
         return true;
     }
 }
