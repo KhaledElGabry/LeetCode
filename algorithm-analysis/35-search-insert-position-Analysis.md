@@ -7,11 +7,6 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
 
-        // validation
-        if(nums == null){
-            throw new IllegalArgumentException("Invalid array input");
-        }
-
         int low = 0;
         int high = nums.length - 1;
 
@@ -25,7 +20,6 @@ class Solution {
             }else {
                 high = mid - 1; // move high before mid
             }
-
         }
 
         return low; // low will always be where target should be inserted
@@ -37,12 +31,7 @@ class Solution {
 
 ```go
 func searchInsert(nums []int, target int) int {
-
-    // validation
-    if nums == nil {
-        panic("Invalid array input")
-    }
-
+    
     var low int = 0
     var high int = len(nums) - 1
     
