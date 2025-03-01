@@ -7,12 +7,7 @@
 class Solution {
     public int lengthOfLastWord1(String s) {
 
-        // validation
-        if (s == null || s.isEmpty() || s.length() > 10_000) {
-            throw new IllegalArgumentException("Invalid input String");
-        }
-
-        s = s.trim(); // trim the string to remove leading and trailing spaces
+        s = s.trim(); // remove leading and trailing spaces
         int length = 0;
 
         // iterate from the end of the string
@@ -54,12 +49,7 @@ class Solution {
 class Solution {
     public int lengthOfLastWord(String s) {
 
-        // validation
-        if (s == null || s.isEmpty() || s.length() > 10_000) {
-            throw new IllegalArgumentException("Invalid input String");
-        }
-
-        s = s.trim(); // trim the string to remove leading and trailing spaces
+        s = s.trim(); // remove leading and trailing spaces
         int length = 0;
 
         // iterate from the end of the string
@@ -69,6 +59,7 @@ class Solution {
             }
             length++;
         }
+        
         return length;
     }
 }
