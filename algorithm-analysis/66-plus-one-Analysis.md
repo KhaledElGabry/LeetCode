@@ -6,12 +6,7 @@
 ```java
     class Solution {
     public int[] plusOne(int[] digits) {
-
-        // validation
-        if (digits.length < 1 || digits.length > 100) {
-            throw new IllegalArgumentException("Invalid Array input");
-        }
-
+        
         // traverse the array from the last digit to the first
         for (int i = digits.length - 1; i >= 0; i--) {
             
