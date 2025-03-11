@@ -1,7 +1,5 @@
 class Solution {
     public int countPairs(List<Integer> nums, int target) {
-        if (nums.isEmpty() || nums.size() > 50 ) throw new IllegalArgumentException("invalid input");
-
         int pairsCount = 0 ;
         int i,j;
 
@@ -12,6 +10,7 @@ class Solution {
                 }
             }
         }
+
         return pairsCount;
     }
 }
