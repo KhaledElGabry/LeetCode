@@ -1,11 +1,6 @@
 class Solution {
     public long findTheArrayConcVal(int[] nums) {
 
-        // validation
-        if (nums.length < 1 || nums.length > 1000) {
-            throw new IllegalArgumentException("Invalid");
-        }
-
         int left = 0;
         int right = nums.length - 1;
         long result = 0;

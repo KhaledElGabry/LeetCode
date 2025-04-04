@@ -7,15 +7,6 @@
 class Solution {
     public String makeSmallestPalindrome(String s) {
 
-        // validation
-        if (s == null) {
-            throw new NullPointerException("Invalid input, the string Cannot be null");
-        }
-
-        if (s.isEmpty() || s.length() > 1000) {
-            return "Invalid input";
-        }
-
         char[] chars = s.toCharArray();
         int left = 0;
         int right = chars.length - 1;

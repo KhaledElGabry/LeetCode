@@ -1,6 +1,5 @@
 class Solution {
     public int[] leftRightDifference(int[] nums) {
-        if (nums.length == 0 || nums.length > 1000) throw new IllegalArgumentException("invalid input");
 
         int[] answer = new int[nums.length];
         int[] leftSum = new int[nums.length];

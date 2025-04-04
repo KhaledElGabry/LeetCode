@@ -6,17 +6,10 @@
 ```java
 class Solution {
     public int maximumValue(String[] strs) {
-
-        // validations
-        if (!(strs.length >= 1) || !(strs.length <= 100)) {
-            throw new IllegalArgumentException("invalid");
-        }
-
         int maxValue = 0;
         for (String str : strs) {
             maxValue = Math.max(maxValue, parser(str));
         }
-
         return maxValue;
     }
 

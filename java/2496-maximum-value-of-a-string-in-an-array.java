@@ -2,13 +2,8 @@ class Solution {
 
     // using (Try-Catch) try to parsing string if applicable
     public int maximumValueTry(String[] strs) {
-
-        // validations
-        if (!(strs.length >= 1) || !(strs.length <= 100)) {
-            throw new IllegalArgumentException("invalid");
-        }
-
         int maxValue = 0;
+
         for (String str : strs) {
             if (str.length() <= 9) {
                 try {
@@ -26,17 +21,10 @@ class Solution {
 
     // using helper method to parsing string
     public int maximumValue(String[] strs) {
-
-        // validations
-        if (!(strs.length >= 1) || !(strs.length <= 100)) {
-            throw new IllegalArgumentException("invalid");
-        }
-
         int maxValue = 0;
         for (String str : strs) {
             maxValue = Math.max(maxValue, parser(str));
         }
-
         return maxValue;
     }
 
