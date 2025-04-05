@@ -1,26 +1,8 @@
 class Solution {
     public int arithmeticTriplets(int[] nums, int diff) {
-
-        // validation
-        if (nums == null || nums.length < 3 || nums.length > 200) {
-            throw new IllegalArgumentException("Invalid array input");
-        }
-
-        if (diff < 1 || diff > 50) {
-            throw new IllegalArgumentException("Invalid diff value");
-        }
-
-        for (int number : nums) {
-            if (number < 0 || number > 200) {
-                throw new IllegalArgumentException("Invalid number value: " + number);
-            }
-        }
-
-
         int count = 0;
 
         for (int j = 0; j < nums.length; j++) {
-
             // search for i in the left part (0 to j-1)
             int i = nums[j] - diff;
             int leftResult = Arrays.binarySearch(nums, 0, j, i);
@@ -35,7 +17,6 @@ class Solution {
             if (foundI && foundK) {
                 count++;
             }
-
         }
 
         return count;

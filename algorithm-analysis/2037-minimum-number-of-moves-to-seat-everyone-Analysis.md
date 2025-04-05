@@ -6,10 +6,6 @@
 ```java
 class Solution {
     public int minMovesToSeat(int[] seats, int[] students) {
-        if(seats.length != students.length || seats.length == 0 || students.length > 100){
-            throw new IllegalArgumentException("invalid input");
-        }
-
         insertionSort(seats); // sort seats using insertion sort
         insertionSort(students); // sort students using insertion sort
 
@@ -20,6 +16,8 @@ class Solution {
 
         return totalMoves;
     }
+
+    // insertion-sort
     static void insertionSort(int[] array){
         for (int i = 1; i < array.length; i++) {
             int key = array[i];

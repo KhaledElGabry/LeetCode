@@ -1,6 +1,5 @@
 class Solution {
     public int scoreOfString(String s) {
-        s = s.toLowerCase();
         int score = 0;
 
         for (var i = 1; i < s.length(); i++){

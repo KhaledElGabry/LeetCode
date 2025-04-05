@@ -6,10 +6,6 @@
 ```java
 class Solution {
     public int mostWordsFound(String[] sentences) {
-        if (sentences.length < 1 || sentences.length > 100) {
-            throw new IllegalArgumentException("invalid");
-        }
-
         int maxOfWords = 0;
         String sentenceWithMostSpaces = "";
 
